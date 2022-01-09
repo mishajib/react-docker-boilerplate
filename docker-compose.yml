@@ -40,7 +40,6 @@ services:
 # networks
 networks:
   react-network:
-    name: react-network
     driver: bridge
     driver_opts:
       com.docker.network.bridge.host_binding_ipv4: "${LISTEN_IP}"

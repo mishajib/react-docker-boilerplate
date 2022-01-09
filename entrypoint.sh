@@ -2,7 +2,8 @@
 set -e
 
 cd /app
+
+yarn global add react-scripts
 yarn install
-yarn global add react-scripts@3.4.1
 
 exec "$@"
